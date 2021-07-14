@@ -12,6 +12,14 @@ This research website is maintained for the documentation of the project "Identi
 ***
 
 # Project description
+This project is part of large project [Identification of translational regulatory elements](assets/Project Description.pdf).
+
+It is an extension of previous work [Thousands of novel translated open reading frames in humans inferred by ribosome footprint profiling](assets/Previous work.pdf) and Jiangrong's [work](assets/Ouyang.pdf). 
+
+The major difference in my project is to allow transitional initial occur at non-canonical start codon. It provides more flexibility and is more similar to current biology assumption.
+
+
+# Abstract
 In contrast to our knowledge of transcriptional regulation, much less is known about translational regulation. A particularly intriguing model of translational regulation involves upstream open reading frames (uORFs). This project develops a statistical model to identify the locations of translated uORFs and main coding regions within the messenger RNA (mRNA). It would further facilitate systematic investigations of uORFs regulator functions.
 
 After studying the characteristics of ribosome profiling data, a hidden Markov model (HMM) is developed for the comprehensive identification of uORFs and main coding regions within the mRNA. Then it is implemented in Python. The estimation of model parameters involves the Expectation-Maximization (EM) algorithm. Identification of the locations of translated regions is conducted by the Viterbi algorithm. Besides, simulation datasets are constructed to verify model correctness.
@@ -22,10 +30,10 @@ In this document [Derivation with 21 states](assets/Derivation Full.pdf), math d
 This file [Derivation with 10 states](assets/Derivation with 10 states.pdf) was a simplied version that several states were merged to reduce implementation complexity. Computation results for this two versions would be compared later.
 
 # Poster
-The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my work [Poster](assets/Poster.pdf).
+The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my [Poster](assets/Poster.pdf).
 
 # Presentation slides
-The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021.
+The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021 for Research Project.
 
 # Paper
 Here's the [Paper](assets/Paper.pdf) with 21 hidden states. Results and anslysis were based on simulation data. Appendix included derivation details and algorithm to simulate data.
@@ -36,3 +44,10 @@ Here's the [Paper](assets/Paper.pdf) with 21 hidden states. Results and anslysis
 10 hidden states: update later
 
 # Resources
+[Christopher M. Bishop (2006) -- Pattern Recognition and Machine Learning -- Chapter 13](assets/Christopher M. Bishop.pdf)
+
+[Jia Li's slides](assets/Jia Li's slides.pdf)
+
+[Marcin Marszalek's slides (2009)](assets/Marcin Marszalek's slides.pdf)
+
+[Mark Stamp (2021) -- A Revealing Introduction to Hidden Markov Models](assets/Mark Stamp.pdf)
