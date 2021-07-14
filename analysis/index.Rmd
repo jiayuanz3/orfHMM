@@ -6,14 +6,23 @@ output:
 
 ---
 
-Welcome to my research website.
+This research website is maintained for the documentation of the project "Identification of translational regulation elements in mRNA". 
 ***
 
-## intor
-hh
-statr
+# Project description
+In contrast to our knowledge of transcriptional regulation, much less is known about translational regulation. A particularly intriguing model of translational regulation involves upstream open reading frames (uORFs). This project develops a statistical model to identify the locations of translated uORFs and main coding regions within the messenger RNA (mRNA). It would further facilitate systematic investigations of uORFs regulator functions.
 
+After studying the characteristics of ribosome profiling data, a hidden Markov model (HMM) is developed for the comprehensive identification of uORFs and main coding regions within the mRNA. Then it is implemented in Python. The estimation of model parameters involves the Expectation-Maximization (EM) algorithm. Identification of the locations of translated regions is conducted by the Viterbi algorithm. Besides, simulation datasets are constructed to verify model correctness.
 
+# Derivation
 
-## sencond
-hgkwge123
+# Poster
+The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my work [Poster](assets/Poster.pdf)
+
+# Presentation slides
+
+# Paper
+
+# Codes
+
+# Resources
