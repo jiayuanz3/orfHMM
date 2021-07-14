@@ -7,5 +7,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+This research project "Identification of translational regulation elements in mRNA" aims to identify translated region with hidden Markov model and Expectation-Maximization (EM) algorithm. 
+
+It started from December 2020 at the University of Melbourne and this page will keep updating if any modification is made. It will apply to the real biological data and analyze the results in the future. 
+
+If you find any mistake on this page, don't hesitate me by jiayuanz3\@student.unimelb.edu.au (if valid after graduation) or annazhu0322\@gmail.com.
+
+Finally, many thanks to my supervisor [Heejung Shim](https://heejungshim.org) who saved my life when I'm stuck :)
+
+
 
