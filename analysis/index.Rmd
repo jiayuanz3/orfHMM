@@ -28,7 +28,10 @@ The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarsh
 The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021.
 
 # Paper
+Here's the [Paper](assets/Paper.pdf) with 21 hidden states. Results and anslysis were based on simulation data. Appendix included derivation details and algorithm to simulate data.
 
 # Codes
+21 hidden states: update later
+10 hidden states: update later
 
 # Resources
