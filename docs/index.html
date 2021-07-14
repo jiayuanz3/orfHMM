@@ -440,16 +440,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjiayuanz3orfHMMtree864fba59d41f7266340669c3185788eba96d509atargetblank864fba5a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jiayuanz3/orfHMM/tree/864fba59d41f7266340669c3185788eba96d509a" target="_blank">864fba5</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjiayuanz3orfHMMtree4b030ea06a73688c68122dd1a61fa8a1f6e7ef1btargetblank4b030eaa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jiayuanz3/orfHMM/tree/4b030ea06a73688c68122dd1a61fa8a1f6e7ef1b" target="_blank">4b030ea</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomjiayuanz3orfHMMtree864fba59d41f7266340669c3185788eba96d509atargetblank864fba5a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomjiayuanz3orfHMMtree4b030ea06a73688c68122dd1a61fa8a1f6e7ef1btargetblank4b030eaa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/jiayuanz3/orfHMM/tree/864fba59d41f7266340669c3185788eba96d509a" target="_blank">864fba5</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/jiayuanz3/orfHMM/tree/4b030ea06a73688c68122dd1a61fa8a1f6e7ef1b" target="_blank">4b030ea</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -496,6 +496,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/jiayuanz3/orfHMM/blob/4b030ea06a73688c68122dd1a61fa8a1f6e7ef1b/analysis/index.Rmd" target="_blank">4b030ea</a>
+</td>
+<td>
+jiayuanz3
+</td>
+<td>
+2021-07-15
+</td>
+<td>
+Publish the initial files for myproject
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/jiayuanz3/orfHMM/6eefe9f2e77d4d1b516996f5c8a855cedf73c87c/docs/index.html" target="_blank">6eefe9f</a>
+</td>
+<td>
+jiayuanz3
+</td>
+<td>
+2021-07-15
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -1049,16 +1083,16 @@ Start workflowr project.
 </div>
 <p>This research website is maintained for the documentation of the project “Identification of translational regulation elements in mRNA”.</p>
 <hr />
+<div id="abstract" class="section level1">
+<h1>Abstract</h1>
+<p>In contrast to our knowledge of transcriptional regulation, much less is known about translational regulation. A particularly intriguing model of translational regulation involves upstream open reading frames (uORFs). This project develops a statistical model to identify the locations of translated uORFs and main coding regions within the messenger RNA (mRNA). It would further facilitate systematic investigations of uORFs regulator functions.</p>
+<p>After studying the characteristics of ribosome profiling data, a hidden Markov model (HMM) is developed for the comprehensive identification of uORFs and main coding regions within the mRNA. Then it is implemented in Python. The estimation of model parameters involves the Expectation-Maximization (EM) algorithm. Identification of the locations of translated regions is conducted by the Viterbi algorithm. Besides, simulation datasets are constructed to verify model correctness.</p>
+</div>
 <div id="project-description" class="section level1">
 <h1>Project description</h1>
 <p>This project is part of large project <a href="assets/Project%20Description.pdf">Identification of translational regulatory elements</a>.</p>
 <p>It is an extension of previous work <a href="assets/Previous%20work.pdf">Thousands of novel translated open reading frames in humans inferred by ribosome footprint profiling</a> and Jiangrong’s <a href="assets/Ouyang.pdf">work</a>.</p>
 <p>The major difference in my project is to allow transitional initial occur at non-canonical start codon. It provides more flexibility and is more similar to current biology assumption.</p>
-</div>
-<div id="abstract" class="section level1">
-<h1>Abstract</h1>
-<p>In contrast to our knowledge of transcriptional regulation, much less is known about translational regulation. A particularly intriguing model of translational regulation involves upstream open reading frames (uORFs). This project develops a statistical model to identify the locations of translated uORFs and main coding regions within the messenger RNA (mRNA). It would further facilitate systematic investigations of uORFs regulator functions.</p>
-<p>After studying the characteristics of ribosome profiling data, a hidden Markov model (HMM) is developed for the comprehensive identification of uORFs and main coding regions within the mRNA. Then it is implemented in Python. The estimation of model parameters involves the Expectation-Maximization (EM) algorithm. Identification of the locations of translated regions is conducted by the Viterbi algorithm. Besides, simulation datasets are constructed to verify model correctness.</p>
 </div>
 <div id="derivation" class="section level1">
 <h1>Derivation</h1>
@@ -1088,6 +1122,8 @@ Start workflowr project.
 <p><a href="assets/Jia%20Li&#39;s%20slides.pdf">Jia Li’s slides</a></p>
 <p><a href="assets/Marcin%20Marszalek&#39;s%20slides.pdf">Marcin Marszalek’s slides (2009)</a></p>
 <p><a href="assets/Mark%20Stamp.pdf">Mark Stamp (2021) – A Revealing Introduction to Hidden Markov Models</a></p>
+<p><a href="https://www.youtube.com/watch?v=4XqWadvEj2k&amp;list=PLpAeikDnrZLU_hmWcY00EXuV3z8unmUfQ&amp;index=4">A quick video on Hidden Markov Models</a></p>
+<p><a href="https://www.youtube.com/watch?v=4XqWadvEj2k&amp;list=PLpAeikDnrZLU_hmWcY00EXuV3z8unmUfQ&amp;index=5">A quick video on Markov Models</a></p>
 </div>
 
 
