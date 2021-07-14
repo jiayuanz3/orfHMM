@@ -12,7 +12,9 @@ Welcome to my research website.
 ## intor
 hh
 statr
-![](assets/ranganath.pdf)
+
+[test](assets/ranganath.pdf)
+
 
 ## sencond
 hgkwge123
