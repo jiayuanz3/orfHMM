@@ -17,7 +17,7 @@ After studying the characteristics of ribosome profiling data, a hidden Markov m
 # Derivation
 
 # Poster
-The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my work [Poster](assets/Poster.pdf)
+The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my work [Poster](assets/Poster.pdf).
 
 # Presentation slides
 
