@@ -17,6 +17,7 @@ In contrast to our knowledge of transcriptional regulation, much less is known a
 After studying the characteristics of ribosome profiling data, a hidden Markov model (HMM) is developed for the comprehensive identification of uORFs and main coding regions within the mRNA. Then it is implemented in Python. The estimation of model parameters involves the Expectation-Maximization (EM) algorithm. Identification of the locations of translated regions is conducted by the Viterbi algorithm. Besides, simulation datasets are constructed to verify model correctness.
 
 # Derivation
+In this document [Derivation with 21 states](assets/Derivation Full.pdf), math derivation was based on 21 hidden states. Second part's (p11-p17) derivation was applied with logistic. However, in the real computation, some constrain issues / assumption conflicts occured so it was disgraded for implementation. This file [Derivation with 10 states](assets/Derivation with 10 states.pdf) was a simplied version that several states were merged to reduce implementation complexity. Computation results for this two versions would be compared later.
 
 # Poster
 The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my work [Poster](assets/Poster.pdf).
