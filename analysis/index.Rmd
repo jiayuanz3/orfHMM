@@ -25,6 +25,7 @@ This file [Derivation with 10 states](assets/Derivation with 10 states.pdf) was 
 The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my work [Poster](assets/Poster.pdf).
 
 # Presentation slides
+The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021.
 
 # Paper
 
