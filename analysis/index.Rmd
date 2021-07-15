@@ -18,7 +18,7 @@ In contrast to our knowledge of transcriptional regulation, much less is known a
 After studying the characteristics of ribosome profiling data, a hidden Markov model (HMM) is developed for the comprehensive identification of uORFs and main coding regions within the mRNA. Then it is implemented in Python. The estimation of model parameters involves the Expectation-Maximization (EM) algorithm. Identification of the locations of translated regions is conducted by the Viterbi algorithm. Besides, simulation datasets are constructed to verify model correctness.
 
 # Project description
-This project is part of large project [Identification of translational regulatory elements](assets/Project Description.pdf).
+This project is part of large project Identification of translational regulatory elements.
 
 It is an extension of previous work [Thousands of novel translated open reading frames in humans inferred by ribosome footprint profiling](assets/Previous work.pdf) and Jiangrong's [work](assets/Ouyang.pdf). 
 
