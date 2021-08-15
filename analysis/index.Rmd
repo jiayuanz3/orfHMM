@@ -8,7 +8,7 @@ output:
 
 ---
 
-This research website is maintained for the documentation of the project "Identification of translational regulation elements in mRNA". 
+This research website is maintained for the documentation of the project "Identification of translational regulation elements in mRNA" under the supervision of [Heejung Shim](https://heejungshim.org).
 
 ***
 
@@ -20,7 +20,7 @@ After studying the characteristics of ribosome profiling data, a hidden Markov m
 # Project description
 This project is part of large project Identification of translational regulatory elements.
 
-It is an extension of previous work [Thousands of novel translated open reading frames in humans inferred by ribosome footprint profiling](assets/Previous work.pdf) and Jiangrong's [work](assets/Ouyang.pdf). 
+It is an extension of previous work [Thousands of novel translated open reading frames in humans inferred by ribosome footprint profiling](assets/Previous work.pdf) and Jiangrong's work. 
 
 The major difference in my project is to allow transitional initial occur at non-canonical start codon. It provides more flexibility and is more similar to current biology assumption.
 
@@ -34,10 +34,11 @@ This file [Derivation with 10 states](assets/Derivation with 10 states.pdf) was 
 The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarship program hold by the Unversity of Melbourne. Here's my [Poster](assets/Poster.pdf).
 
 # Presentation slides
-The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021 for Research Project.
+The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021 for Research Project. Thanks to Jiangrong Ouyang for sharing his slides. Some of my slides and figures are modification of him.
 
-# Paper
-Here's the [Paper](assets/Paper.pdf) with 21 hidden states. Results and anslysis were based on simulation data. Appendix included derivation details and algorithm to simulate data.
+# Report
+Here's the report with 21 hidden states. Results and anslysis were based on simulation data. Appendix included derivation details and algorithm to simulate data. 
+As its an ongoing project, so if you are interested in it, please contact me first and then I can provide some further information.
 
 # Codes
 21 hidden states: update later
