@@ -46,9 +46,9 @@ EM algorithm for updating parameters: [orfHMM_EM](assets/orfHMM_EM.py)
 Viterbi algorithm for backtracking hidden states: [orfHMM_Viterbi](assets/orfHMM_Viterbi.py)
 
 # Simulation Tests
-[Simulation for 21 states with 1 start codon](Simulation for 21 states with 1 start codon.html)
+[Simulation for 21 states with 1 start codon](assets/Simulation for 21 states with 1 start codon.html)
 
-[Simulation for 21 states with 13 start codons](Simulation for 21 states with 3 start codons.html)
+[Simulation for 21 states with 3 start codons](assets/Simulation for 21 states with 3 start codons.html)
 
 10 hidden states: update later
 
