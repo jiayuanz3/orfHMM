@@ -37,13 +37,21 @@ The poster session was conducted on 12/2/2021 for Maths & Stats Vaction Sholarsh
 The [Presentation](assets/Presentation.pdf) was conducted on 4/6/2021 for Research Project. Thanks to Jiangrong Ouyang for sharing his slides. Some of my slides and figures are modification of him.
 
 # Report
-Here's the report with 21 hidden states. Results and anslysis were based on simulation data. Appendix included derivation details and algorithm to simulate data. 
+Here's the report with both 21 and 10 hidden states. Results and anslysis were based on simulation data. Appendix included derivation details and algorithm to simulate data. 
 As its an ongoing project, so if you are interested in it, please contact me first and then I can provide some further information.
 
 # Codes
+EM algorithm for updating parameters: [orfHMM_EM](assets/orfHMM_EM.py)
+
+Viterbi algorithm for backtracking hidden states: [orfHMM_Viterbi](assets/orfHMM_Viterbi.py)
+
+# Simulation Tests
 21 hidden states: update later
 
 10 hidden states: update later
+
+# Software Page
+Here's the [link](https://github.com/shimlab/orfHMM) for software.
 
 # Resources
 [Christopher M. Bishop (2006) -- Pattern Recognition and Machine Learning -- Chapter 13](assets/Christopher M. Bishop.pdf)
