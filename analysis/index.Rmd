@@ -50,7 +50,9 @@ Viterbi algorithm for backtracking hidden states: [orfHMM_Viterbi](assets/orfHMM
 
 [Simulation for 21 states with 3 start codons](assets/Simulation for 21 states with 3 start codons.html)
 
-10 hidden states: update later
+[Simulation for 10 states with 1 start codon](assets/Simulation for 10 states with 1 start codon.html)
+
+[Simulation for 10 states with 3 start codons](assets/Simulation for 10 states with 3 start codons.html)
 
 # Software Page
 Here's the [link](https://github.com/shimlab/orfHMM) for software.
